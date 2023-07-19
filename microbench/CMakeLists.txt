@@ -1,0 +1,8 @@
+set(CMAKE_C_FLAGS "-fopenmp")
+add_executable(many_calloc ./many_calloc.c)
+add_executable(many_mmap_read ./many_mmap_read.c)
+add_executable(many_mmap_write ./many_mmap_write.c)
+add_executable(many_malloc ./many_malloc.c)
+add_executable(many_sbrk ./many_sbrk.c)
+add_executable(many_zipf_free ./many_zipf_free.c)
+add_executable(page_fault_test ./page_fault_test.c)
